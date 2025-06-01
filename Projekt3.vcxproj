@@ -127,11 +127,12 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="binding.cpp" />
-    <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\binding.cpp" />
+    <ClCompile Include="src\main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="projekt3.h" />
+    <ClInclude Include="src\projekt3.h" />
   </ItemGroup>
   <ItemGroup>
     <None Include=".gitignore" />

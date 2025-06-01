@@ -1,11 +1,11 @@
 #include <pybind11/pybind11.h>
 #include <pybind11/stl.h>
-#include "sygnalytest.h"
+#include "projekt3.h"
 
 namespace py = pybind11;
 
 PYBIND11_MODULE(signals, m) {
-    m.doc() = "Modul do generowania i analizy sygna³ow";
+    m.doc() = "Modul do generowania i analizy sygnaÅ‚ow";
 
     m.def("sin", &generate_sine,
         py::arg("freq"),
@@ -50,12 +50,12 @@ PYBIND11_MODULE(signals, m) {
     m.def("filter_1D", &filter_1D,
         py::arg("signal"),
         py::arg("kernel"),
-        "Filtracja sygnalu 1D za pomoca j¹dra filtruj¹cego");
+        "Filtracja sygnalu 1D za pomoca jÄ…dra filtrujÄ…cego");
 
     m.def("filter_2D", &Filter2D,
         py::arg("signal"),
         py::arg("filter"),
-        "Filtracja sygnalu 2D za pomoca j¹dra filtruj¹cego");
+        "Filtracja sygnalu 2D za pomoca jÄ…dra filtrujÄ…cego");
 
     m.def("run", [](const std::string& type1, double freq1, double amp1,
         const std::string& type2, double freq2, double amp2,

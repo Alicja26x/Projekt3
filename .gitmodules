@@ -1,0 +1,6 @@
+[submodule "external/matplotplusplus"]
+	path = external/matplotplusplus
+	url = https://github.com/alandefreitas/matplotplusplus.git
+[submodule "external/vcpkg"]
+	path = external/vcpkg
+	url = https://github.com/microsoft/vcpkg.git

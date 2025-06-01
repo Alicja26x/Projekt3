@@ -4,7 +4,7 @@
 #include <cmath>
 #include <iostream>
 #include <algorithm>
-#include "sygnalytest.h"
+#include "projekt3.h"
 #include <string>
 
 using namespace matplot;
@@ -209,9 +209,9 @@ void plotting(const std::string& type1, double freq1, double amp1,
         return;
     }
 
-    // Sprawdzenie d≥ugoúci
+    // Sprawdzenie d≈Çugo≈õci
     if (y1.size() != y2.size()) {
-        cerr << "Sygnaly majπ rozne dlugosci!\n";
+        cerr << "Sygnaly majƒÖ rozne dlugosci!\n";
         return;
     }
 
@@ -232,7 +232,7 @@ void plotting(const std::string& type1, double freq1, double amp1,
     vector<double> filtered = filter_1D(reconstructed, kernel);
 
     //Filtracja 2D
-    // 2D Filtracja: uøycie y1 i y2 jako 2D sygna≥u
+    // 2D Filtracja: u≈ºycie y1 i y2 jako 2D sygna≈Çu
     vector<vector<double>> signal2D = { y1, y2 };
 
     // 2D Gaussian blur kernel

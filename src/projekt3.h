@@ -1,7 +1,7 @@
 #pragma once
 
-#ifndef SYGNALYTEST_H
-#define SYGNALYTEST_H
+#ifndef PROJEKT3_H
+#define PROJEKT3_H
 
 #include <vector>
 #include <string>
@@ -29,4 +29,4 @@ void plotting(const std::string& type1, double freq1, double amp1,
     const std::string& type2, double freq2, double amp2,
     double t_start, double t_end, size_t num_samples);
 
-#endif // SYGNALYTEST_H
+#endif // PROJEKT3_H
