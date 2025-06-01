@@ -17,4 +17,6 @@ Makefile
 vcpkg_installed/
 
 # Ignore conda env if it’s inside project (optional)
-envs/sygnalytest_env/
+envs/projekt3_env/
+
+x64/Debug
