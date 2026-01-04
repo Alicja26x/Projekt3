@@ -5,7 +5,7 @@ Autorki:
 
 * Amelia Lipińska 203721
 
-* Alicja Szajgin 203383
+  
  
 
 Co zrobić aby projekt się otworzył - instrukcja:
